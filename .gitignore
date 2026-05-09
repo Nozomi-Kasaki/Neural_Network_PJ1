@@ -1,0 +1,42 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Dataset files
+dataset/
+*.gz
+
+# Trained model checkpoints and serialized experiment artifacts
+saved_models/
+best_models/
+best_models_*/
+*_models/
+*.pickle
+*.pkl
+
+# Generated figures, reports, and analysis outputs
+*_figs/
+cnn_validation_errors/
+Figure_*.png
+
+# Local split/cache artifacts
+idx.pickle
+
+# Temporary experiment folders
+tmp*/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
